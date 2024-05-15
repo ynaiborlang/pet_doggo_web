@@ -64013,6 +64013,7 @@ if((s==null||s.b==null)&&q.fr)q.cx=A.ao9(B.de,new A.acW(q))}else if(a===B.v1){s=
 if(s!=null)s.dI(!0)
 s=q.cx
 if(s!=null)s.aU(0)
+q.cy=0
 q.dx.J(0)}else if(a===B.v0){s=q.r
 if(s!=null)s.dI(!1)
 s=q.w
@@ -64021,6 +64022,7 @@ s=q.x
 if(s!=null)s.dI(!1)
 s=q.cx
 if(s!=null)s.aU(0)
+q.cy=0
 q.dx.J(0)
 s=q.CW
 s===$&&A.b()
@@ -64034,6 +64036,7 @@ s=q.r
 if(s!=null)s.dI(!1)
 s=q.cx
 if(s!=null)s.aU(0)
+q.cy=0
 q.dx.J(0)
 s=q.CW
 s===$&&A.b()
@@ -64137,7 +64140,7 @@ $R:4,
 $S:404}
 A.acW.prototype={
 $1(a){var s=this.a
-if(++s.cy>6){s=s.ay
+if(++s.cy>1){s=s.ay
 if(s!=null)s.dI(!0)}},
 $S:123}
 A.acR.prototype={

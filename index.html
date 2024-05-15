@@ -14,78 +14,7 @@
     This is a placeholder for base href that will be replaced by the value of
     the `--base-href` argument provided to `flutter build`.
   -->
-
-    <!-- change the color of chrome header in mobile devices -->
-    <link
-      rel="preload"
-      href="https://www.gstatic.com/flutter-canvaskit/c4cd48e186460b32d44585ce3c103271ab676355/chromium/canvaskit.js"
-      as="fetch"
-    />
-
-    <link
-      rel="preload"
-      href="https://ynaiborlang.github.io/pet_doggo_web/assets/assets/background.png"
-      as="fetch"
-    />
-
-    <link
-      rel="preload"
-      href="https://ynaiborlang.github.io/pet_doggo_web/assets/assets/dog.riv"
-      as="fetch"
-    />
-
-    <link
-      rel="preload"
-      href="https://ynaiborlang.github.io/pet_doggo_web/assets/assets/dog1.jpg"
-      as="fetch"
-    />
-
-    <link
-      rel="preload"
-      href="https://ynaiborlang.github.io/pet_doggo_web/assets/assets/dog2.jpg"
-      as="fetch"
-    />
-
-    <link
-      rel="preload"
-      href="https://ynaiborlang.github.io/pet_doggo_web/assets/assets/dog3.jpg"
-      as="fetch"
-    />
-
-    <link
-      rel="preload"
-      href="https://ynaiborlang.github.io/pet_doggo_web/assets/assets/dog4.jpg"
-      as="fetch"
-    />
-
-    <link
-      rel="preload"
-      href="https://ynaiborlang.github.io/pet_doggo_web/assets/assets/instagram.png"
-      as="fetch"
-    />
-
-    <link
-      rel="preload"
-      href="https://ynaiborlang.github.io/pet_doggo_web/assets/assets/twitter.png"
-      as="fetch"
-    />
-
-    <link
-      rel="preload"
-      href="https://www.gstatic.com/flutter-canvaskit/c4cd48e186460b32d44585ce3c103271ab676355/chromium/canvaskit.wasm"
-      as="fetch"
-    />
-
-    <meta
-      name="theme-color"
-      media="(prefers-color-scheme: light)"
-      content="#FFFFFF"
-    />
-    <meta
-      name="theme-color"
-      media="(prefers-color-scheme: dark)"
-      content="#000000"
-    />
+    <!-- <base href="/"> -->
 
     <meta charset="UTF-8" />
     <meta content="IE=Edge" http-equiv="X-UA-Compatible" />
@@ -100,9 +29,8 @@
     <!-- Favicon -->
     <link rel="icon" type="image/png" href="favicon.png" />
 
-    <title>Pet Doggo</title>
+    <title>pet_cat</title>
     <link rel="manifest" href="manifest.json" />
-
     <style>
       .loader {
         border: 16px solid #f3f3f3;
@@ -140,30 +68,9 @@
         }
       }
     </style>
-
-    <script>
-      // The value below is injected by flutter build, do not touch.
-      const serviceWorkerVersion = "293717459";
-    </script>
-    <!-- This script adds the flutter initialization JS code -->
-    <script src="flutter.js" defer></script>
   </head>
   <body>
     <div class="loader"></div>
-    <script>
-      window.addEventListener("load", function (ev) {
-        // Download main.dart.js
-        _flutter.loader.loadEntrypoint({
-          serviceWorker: {
-            serviceWorkerVersion: serviceWorkerVersion,
-          },
-          onEntrypointLoaded: function (engineInitializer) {
-            engineInitializer.initializeEngine().then(function (appRunner) {
-              appRunner.runApp();
-            });
-          },
-        });
-      });
-    </script>
+    <script src="flutter_bootstrap.js" async></script>
   </body>
 </html>
